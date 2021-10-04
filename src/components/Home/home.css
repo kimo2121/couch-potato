@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  height: 60px;
+  padding: 10px 0 20px 0;
+  justify-content: space-around;
+}
+.the-grease {
+  width: 1280px;
+  margin: 0 auto;
+}
+.the-grease li {
+  margin: 50px 0;
+  letter-spacing: 1px;
+  text-align: left;
+  color: white;
+}
+.the-grease {
+  margin-top: 40px;
+}
+.the-couch h2 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 100;
+}
+.the-couch p {
+  color: white;
+  width: 788px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  font-size: 32px;
+}
+@media screen and (max-width: 1280px) {
+  .the-grease {
+    width: 90%;
+  }
+  .the-couch p {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .the-couch h2 {
+    width: 70%;
+    margin: 0 auto;
+  }
+}

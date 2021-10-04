@@ -1,0 +1,15 @@
+.member-image {
+  width: 240px;
+  height: 270px;
+  object-fit: cover;
+}
+.snap-image {
+  margin: 2vh 3vw;
+  width: 200px;
+  height: 387px;
+}
+.fryer-frame {
+  object-fit: cover;
+  width: 320px;
+  height: 400px;
+}

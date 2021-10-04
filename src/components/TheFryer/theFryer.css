@@ -1,0 +1,36 @@
+.fryer-container {
+  width: 1248px;
+  margin: 0 auto;
+  color: white;
+}
+
+.fryer-container p {
+  width: 100%;
+}
+.imgs-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.frame-container {
+  width: 320px;
+
+  margin: 2vh 4vw;
+}
+.frame-container p {
+  width: 100%;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 1280px) {
+  .fryer-container {
+    width: 100%;
+  }
+  .imgs-container {
+    flex-wrap: wrap;
+  }
+  .fryer-container p {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
