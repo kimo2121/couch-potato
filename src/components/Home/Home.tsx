@@ -13,13 +13,27 @@ import NFTMARKET4 from "../../assets/images/NFTMARKET4.png";
 import Footer from "../Footer/Footer";
 import CustomizedAccordions from "../FAQ/FAQ";
 import Image from "../Image/Image";
-
+import { useHistory } from "react-router-dom";
+import couchPotato from "../../assets/images/couchPotato.png";
 const Home: React.FC = () => {
+  const history = useHistory();
+
+  const routeChange = () => {
+    let path = `/free-chipz`;
+    history.push(path);
+  };
   return (
     <div className="home">
       <div className="navbar">
-        <button>Free CHIPZ</button>
-        <button>Connect Wallet</button>
+        <button onClick={routeChange}>
+          <img src={couchPotato} alt="" />
+          Free <br /> CHIPZ
+        </button>
+        <button>
+          <span></span>
+          CONNECT
+          <br /> WALLET
+        </button>
       </div>
       <Gif />
       <TheFryer />

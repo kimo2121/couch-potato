@@ -1,8 +1,40 @@
 .navbar {
   display: flex;
   height: 60px;
+  margin: 0 auto;
+  width: 1248px;
   padding: 10px 0 20px 0;
+  justify-content: space-between;
+}
+.navbar button {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  height: 49px;
+  line-height: 1.75;
+  font-size: 14px;
+  width: 130px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  border: none;
   justify-content: space-around;
+  outline: none;
+  display: flex;
+  transition: background 0.3s;
+}
+.navbar button:hover {
+  background-color: #e0e0e0;
+}
+.navbar button span {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+}
+.navbar button img {
+  width: 40px;
+  object-fit: cover;
+  height: 40px;
 }
 .the-grease {
   width: 1280px;
@@ -40,5 +72,9 @@
   .the-couch h2 {
     width: 70%;
     margin: 0 auto;
+  }
+  .navbar {
+    width: 100%;
+    padding: 10px 20px 20px 20px;
   }
 }

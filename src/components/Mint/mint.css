@@ -1,0 +1,35 @@
+.mint {
+  background-color: rgb(13, 19, 26);
+  border-radius: 10px;
+  padding: 35px;
+  width: 540px;
+  margin-top: 20px;
+}
+.mint p {
+  display: flex;
+  font-size: 1.3rem;
+  color: white;
+  margin: 0;
+  letter-spacing: 1.5px;
+  justify-content: center;
+}
+.mint button {
+  color: #fff;
+  background-color: #f50057;
+  margin-top: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  padding: 6px 16px;
+}
+.mint button:hover {
+  background-color: #c51162;
+}
+.slider-box {
+  width: 100%;
+}
+@media screen and (max-width: 1280px) {
+  .mint {
+    width: auto;
+  }
+}

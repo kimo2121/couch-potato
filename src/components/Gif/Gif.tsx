@@ -2,7 +2,7 @@ import React from "react";
 import generatedtext from "../../assets/images/generatedtext.png";
 import "./gif.css";
 import PotatoGif from "../../assets/images/Potato Gif.gif";
-
+import Mint from "../Mint/Mint";
 const Gif: React.FC = () => {
   return (
     <div className="gif-component">
@@ -17,6 +17,7 @@ const Gif: React.FC = () => {
         </p>
         <h3>7% LIFE-TIME ROYALTIES</h3>
         <span>On Upcoming MarketPlace</span>
+        <Mint />
       </div>
       <div className="gif-container">
         <img src={PotatoGif} alt="" />
